@@ -28,8 +28,8 @@ jobs:
       with:
         # Artifact name
         name: # optional, default is artifact
-          log4jScan
+          log4j2Scan
         # A file, directory or wildcard pattern that describes what to upload
         path: 
-          target/log4jScan
+          target/log4j2Scan
         # The desired behavior if no files are found using the provided path.
